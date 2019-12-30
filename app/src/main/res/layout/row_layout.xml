@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B6C72">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222422"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IV_title_o"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="#131212"
+            android:gravity="center"
+            android:text="ID"
+            android:textColor="#FCFCF8"
+            android:textSize="15sp" />
+
+
+        +id/IV_deascription_3
+
+        <TextView
+            android:id="@+id/IV_title"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="#131212"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#F3F3F0"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/IV_deascription_3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="#131212"
+            android:gravity="center"
+            android:text="Phone"
+            android:textColor="#F0E8E8"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/IV_deascription"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="#131212"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#EEEEE7"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>
